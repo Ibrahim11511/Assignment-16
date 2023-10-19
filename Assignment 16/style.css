@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Glory:wght@100;200;300;400;500&family=Poppins:wght@100;200;300;400;500;600;700;800&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Ubuntu:ital@1&display=swap');
+*{
+    font-family: 'Glory', sans-serif;
+    margin: 0px;
+}
+
+body{
+    width: 100vw;
+}
+
+.card-container{
+    display: flex;
+    justify-content: center;
+    width: 95vw;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card{
+    width: 275px;
+    /* max-height: 455px; */
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    /* box-shadow: 0 0 1px 0px #000; */
+    border-radius: 3px;
+    padding: 5px;
+    flex-shrink: 1;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+}
+
+.image{
+    width: 275px;
+}
+
+.image img{
+    width: 100%;
+    aspect-ratio: 1/1;
+}
+
+.info .product-name{
+    margin-top: 5px;
+    font-size: 22px;
+    color: #323232;
+}
+
+.info .description{
+    margin-top: 10px;
+    margin-bottom: 8px;
+    font-size: 20px;
+    color: #32323296;
+}
+
+.price{
+    margin-bottom: 10px;
+}
+
+.price .current-price{
+    color: #28A745;
+    font-size: 22px;
+}
+
+.price .deleted-price{
+    color: #DC3545;
+    font-size: 18px;
+    text-decoration: line-through;
+}
+
+.buttons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5px;
+}
+
+.add-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3px;
+    background-color: #007BFF;
+    border: none;
+    width: 220px;
+    height: 50px;
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 0px 0 0 6px;
+    -webkit-border-radius: 0px 0 0 6px;
+    -moz-border-radius: 0px 0 0 6px;
+    -ms-border-radius: 0px 0 0 6px;
+    -o-border-radius: 0px 0 0 6px;
+    cursor: pointer;
+}
+
+.like{
+    background-color: #fff;
+    border: 2px solid #007BFF;
+    width: 50px;
+    height: 50px;
+        border-radius: 0px 0 0 6px;
+    -webkit-border-radius: 0px 0 0 6px;
+    -moz-border-radius: 0px 0 0 6px;
+    -ms-border-radius: 0px 0 0 6px;
+    -o-border-radius: 0px 0 0 6px;
+    font-size: 25px;
+    color: #007BFF;
+    text-align: center;
+    cursor: pointer;
+}
+
